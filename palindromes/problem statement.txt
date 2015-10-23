@@ -1,0 +1,11 @@
+Given a string, s,  find the longest substring of s that is a palindrome.
+print the start and end indexes of that substr. The end index is inclusive.
+For example, for s = "amanaplanacanalpanama" s[0:2], refers to the substring "ama", beginning at index 0 and ending at index 2.
+
+Input:
+The first line will contain an integer T, the number of testcases. 1 < T < 10000.
+The next T lines will contain a single string consisting of the characters a-zA-Z0-9.
+
+Output:
+For each testcase, output a line containing integers i and j separated by spaces. where i is the starting index, and j is the ending index.
+if more than one substr is tied for longest, choose the one with the smaller stating index.
